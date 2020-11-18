@@ -5,27 +5,27 @@
 cp .env.example .env
 ```
 
-## Publica o JWT
+## Publicar o JWT
 ```
 php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
 ```
 
-### Cria a key para o JWT
+### Criar a key para o JWT
 ```
 php artisan jwt:secret
 ```
 
-### Cria o banco sqlite
+### Criar o banco sqlite
 ```
 touch /var/www/html/api/database/database.sqlite
 ```
 
-### Executa as migrations
+### Executar a criação das tabelas
 ```
 php artisan migrate
 ```
 
-### Executa o seed
+### Executar a carga inicial das tabelas
 ```
 php artisan db:seed
 ```
