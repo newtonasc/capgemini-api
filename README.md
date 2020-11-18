@@ -1,11 +1,11 @@
 # capgemini
 
-## Criar o arquivo .env
+### Criar o arquivo .env
 ```
 cp .env.example .env
 ```
 
-## Publicar o JWT
+### Publicar o JWT
 ```
 php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
 ```
